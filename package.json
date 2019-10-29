@@ -1,0 +1,33 @@
+{
+  "name": "wtizen",
+  "version": "1.0.0",
+  "description": "Web Tizen CLI with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "tizen",
+    "web"
+  ],
+  "author": "Pablo Fuentes",
+  "license": "MIT",
+  "dependencies": {
+    "@types/figlet": "^1.2.0",
+    "@types/node": "^12.7.8",
+    "chalk": "^2.4.2",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.4",
+    "inquirer": "^6.3.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/clui": "^0.3.0",
+    "@types/inquirer": "6.0.3",
+    "@types/minimist": "^1.2.0"
+  },
+  "bin": {
+    "wtizen": "./dist/index.js"
+  }
+}
